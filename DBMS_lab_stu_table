@@ -1,0 +1,12 @@
+ table stu_detail(s_ no number(2),s_name varchar(20),s_school varchar(30),s_hoby varchar(20),s_std number(2),s_gender varchar(15));
+insert into stu_detail values('1','rajesh','r.c patel','dancing','3','male');
+insert into stu_detail values('2','rita','k.c shah','garba','4','female');
+insert into stu_detail values('3','ramesh','r.k chaudhri','swiming','5','male');
+insert into stu_detail values('4','gita','saraswati vidhyalaya', 'null','5','female');
+insert into stu_detail values('5','sunil','n.k solanki','singing','5','male');
+insert into stu_detail values('6','riya','k.s shah','raping','6','female');
+insert into stu_detail values('7','kiya','r.n patel','null','6','female');
+insert into stu_detail values('8','rohan','k.n patel','badmintion','7','male');
+insert into stu_detail values('9','mohan','hiramani','ruunig','7','male');
+insert into stu_detail values('10','rekha','guing','8','female');
+select*from stu_detail;
